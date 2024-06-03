@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <style>
+       body{
+        background: #f8f3f3;
+       }
+       #form{
+         padding: 15px;
+         background: rgb(117, 219, 232);
+         margin: 0px auto;
+         border-radius: 0px;
+         /* box-shadow: 12px 12px 15px #1976D2; */
+      }
+      button {
+	     padding: 10px;
+	    border-radius: 5px;
+	    margin-top: 15px;
+	    margin-bottom: 30px;
+	    border: none;
+	    color: rgb(15, 6, 6);
+	    cursor: pointer;
+	    background-color: #ffff;
+	    width: 10%;
+	    font-size: 15px;
+    }
+    button:hover{
+         color: #000;
+         background: pink;
+         border-width: 1px;
+         border-style: solid;
+         border-color: #000;
+         cursor: pointer;
+      }
+       </style>
+</head>
+<p><h1 align="center"> STUDENT REGISTRATION FORM</h1></p>
+<body>
+    <div id="form">
+         <form action="https://www.google.com" method="post">
+             <!--<p><h1 align:"center"><a href="#"><b></b></a></h1></p> -->
+             <!--<p><h1 align="center"> STUDENT REGISTRATION FORM</h1></p>-->
+    
+            <label>First Name:</label> <input type="text" placeholder="Enter name">
+            <br><br>
+            <label>Last Name:</label> <input type="text" placeholder="Enter name">
+            <br><br>
+            <label>Date Of Birth:</label> <input type="date">
+            <br><br>
+            <label>Email ID:</label> <input type="email" placeholder="Enter email">
+            <br><br>
+            <label>Mobile Number:</label> <input type="text" placeholder="Enter phone">
+            <br><br>
+            <label>Select Gender:</label>
+            <input type="radio" name="gender" value="male" checked> <span>Male</span>
+            <input type="radio" name="gender" value="female"> <span>Female</span>
+            <br><br>
+            <label>Address:</label> <textarea placeholder="Enter Address"></textarea>
+            <br><br>
+            <label>City</label> <input type="text" placeholder="Enter City">
+            <br><br>
+            <label>PIN Code</label> <input type="text" placeholder="        ">
+            <br><br>
+            <label>State:</label> <input type="text" placeholder="       ">
+            <br><br>
+            <label>Country:</label> <input type="text" placeholder="           ">
+            <br><br>
+            <label> Hobbies:</label>
+            <input type="checkbox" value="201"> <span>Drawing</span>
+            <input type="checkbox" value="202"> <span>Dancing</span>
+            <input type="checkbox" value="203"> <span>Sketching</span>
+            <input type="checkbox" value="203" placeholder="           "> <span>others</span>
+            <br><br>
+            <table>
+                 <label>Qualification:</label> 
+            <thead>
+                 <tr>
+                <th>St.No</th>
+                <th>Examination</th>
+                <th>Board</th>
+                <th>Percentage</th>
+                <th>Year Of Passing</th>
+                <tr>
+            </thead>
+            <tbody>
+                <tr>
+                <td>1</td>
+                <td>Class X</td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "></td>
+
+                </tr>
+                <tr>
+                <td>2</td>
+                <td>Class XII</td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "></td>
+
+                </tr>
+                <tr>
+                <td>3</td>
+                <td>Graduation</td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "> </td>
+                <td><input type="text"  placeholder="       "></td>
+
+                </tr>
+                <tr>
+                <td>4</td>
+                <td>Masters</td>
+                <td><input type="text"  placeholder="       "></td>
+                <td><input type="text"  placeholder="       "> </td>
+                <td><input type="text"  placeholder="       "></td>
+
+                </tr>
+                 </tbody>
+
+            </table>
+            <br><br>
+            <label>Course Applied For:</label>
+            <input type="radio" name="Course Applied For" value="BCA" checked> <span>BCA</span>
+            <input type="radio" name="Course Applied For" value="B.com"> <span>B.com</span>
+            <input type="radio" name="Course Applied For" value="B.sc"> <span>B.sc</span>
+            <input type="radio" name="Course Applied For" value="B.A"> <span>B.A</span>
+
+            <br><br>   
+            <br><br>
+
+            <p align="center"><button type="submit"  >Submit</button>
+            <button  type="reset">Reset</button></p>
+     
+        </form>
+    </div>
+</body>
+</html>
+
+
+
